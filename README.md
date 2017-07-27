@@ -22,3 +22,14 @@ Create [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/) data visualizati
 #### Notes on Mapbox Atlas
 
 If you have access to Mapbox Atlas Server on your enterprise network, simply pass in your map stylesheet from your local Atlas URL as opposed to a `mapbox://` URL in cell 214.
+
+```
+# Put your Your Mapbox Access token here
+# https://www.mapbox.com/help/how-access-tokens-work/
+# If you use Mapbox Atlas, this isn't required.  Leave as an empty string.
+mapbox_accesstoken = ''
+
+# Map Style.  Point this to a local style, or a custom style on your Mapbox account or Atlas instance
+mapStyle = "myAtlasUrl:myAtlasPort:/myStylesheetLocaiton"
+```
+
