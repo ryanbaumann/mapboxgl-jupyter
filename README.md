@@ -2,10 +2,14 @@
 
 Create [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/) data visualizations natively in your Jupyter Notebook workflows with Python and Pandas dataframes.
 
-## Running
+## Python Library
+
+Use the `mapboxgl_viz` python library in the `/python` directory to create a viz directly from a python data object or Pandas dataframe.  Work in progress.
+
+## Running Example
 
 1. Install Python3.4+
-2. cd to root directory of mapboxgl-jupyter repo
+2. cd to /example directory of mapboxgl-jupyter repo
 2. `pip install jupyter`
 3. `jupyter notebook`
 4. Open `jupyter-mapboxgl-example` workbook
