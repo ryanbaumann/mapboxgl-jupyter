@@ -1,5 +1,5 @@
 from collections import Mapping, Sequence
-from .lib import colorbrewer
+from .src import colorbrewer
 
 def createColorStops(breaks, colors='RdYlGn'):
     """ Convert a list of breaks into color stops using colors from colorBrewer
